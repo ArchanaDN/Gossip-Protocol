@@ -1,0 +1,8 @@
+#!/bin/bash
+./gossip_release/erts-13.0.4/bin/erl -boot ./gossip_release/releases/1.0.0/start -noshell -main \
+    problem gossip \
+    topology imperfect_grid \
+    num_nodes 50 \
+    temp_fail_prob 0.05 \
+    perm_fail_prob 0.05 \
+    grid_size 5

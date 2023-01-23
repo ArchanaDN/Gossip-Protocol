@@ -1,0 +1,6 @@
+{release,
+    {"main", "1.0.0"},
+    {erts, "13.0.4"},
+    [{kernel, "8.4.2"},
+     {stdlib, "4.0.1"},
+     {main, "1.0.0", transient}]}.
